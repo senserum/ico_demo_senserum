@@ -1,0 +1,220 @@
+{
+  "contractName": "RpsTokenSale",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/RpsTokenSale.sol\":\"RpsTokenSale\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/RpsTokenSale.sol\":{\"keccak256\":\"0x6103357dfeedac7ef7d99673ab712c3e1b84ba07a265664a31bc0672467065fd\",\"urls\":[\"bzz-raw://dd0dc609356fa59154f4d163b9696f4ce45ae1f9cb8237b6e85e4bd81eab468a\",\"dweb:/ipfs/QmQ2fNS355Wag4wHVmRrtoW3TYmEdfDCHo5gvh2oy4CuPF\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201d35494a888b20d9ea14e57fddec4559db4e74ff37a113c5c71173a257c5887864736f6c63430006000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212201d35494a888b20d9ea14e57fddec4559db4e74ff37a113c5c71173a257c5887864736f6c63430006000033",
+  "sourceMap": "27:124:3:-:0;;;56:92;8:9:-1;5:2;;;30:1;27;20:12;5:2;56:92:3;27:124;;;;;;",
+  "deployedSourceMap": "27:124:3:-:0;;;;;",
+  "source": "pragma solidity ^0.6.0;\r\n\r\ncontract RpsTokenSale {\r\n    constructor () public {\r\n        //agrego un admin que va a regentear el token sale\r\n\r\n    }\r\n}",
+  "sourcePath": "D:\\CODECODE\\CosasSolidity\\RPS_Challenge_truffle\\contracts\\RpsTokenSale.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/RpsTokenSale.sol",
+    "exportedSymbols": {
+      "RpsTokenSale": [
+        437
+      ]
+    },
+    "id": 438,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 432,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 437,
+        "linearizedBaseContracts": [
+          437
+        ],
+        "name": "RpsTokenSale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 435,
+              "nodeType": "Block",
+              "src": "78:70:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 436,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 433,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "68:2:3"
+            },
+            "returnParameters": {
+              "id": 434,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "78:0:3"
+            },
+            "scope": 437,
+            "src": "56:92:3",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 438,
+        "src": "27:124:3"
+      }
+    ],
+    "src": "0:151:3"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/RpsTokenSale.sol",
+      "exportedSymbols": {
+        "RpsTokenSale": [
+          437
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.6",
+            ".0"
+          ]
+        },
+        "id": 432,
+        "name": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            437
+          ],
+          "name": "RpsTokenSale",
+          "scope": 438
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "overrides": null,
+              "scope": 437,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 433,
+                "name": "ParameterList",
+                "src": "68:2:3"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 434,
+                "name": "ParameterList",
+                "src": "78:0:3"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 435,
+                "name": "Block",
+                "src": "78:70:3"
+              }
+            ],
+            "id": 436,
+            "name": "FunctionDefinition",
+            "src": "56:92:3"
+          }
+        ],
+        "id": 437,
+        "name": "ContractDefinition",
+        "src": "27:124:3"
+      }
+    ],
+    "id": 438,
+    "name": "SourceUnit",
+    "src": "0:151:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.0+commit.26b70077.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5D17297264B4eb1F581B9240f8a9E7bEDC1ceB0A",
+      "transactionHash": "0xe0aecc01bd3c8bf2c683572f2429529c90d390d4ce8f227ebe60ae7cc998da8c"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-28T22:43:46.652Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
