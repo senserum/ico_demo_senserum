@@ -1,0 +1,16 @@
+en la truffle console usar por ejemplo:
+
+Object.keys(rtoken) para ver la lista de metodos y atributos de la instancia
+
+let rtoken = await RpsToken.deployed()
+
+rtoken.standard()
+rtoken.symbol()
+(await rtoken.totalSupply()).toNumber()
+
+ web3.eth.getAccounts()
+let accounts = await web3.eth.getAccounts()
+
+let admin = accounts[0]
+
+(await rtoken.balanceOf(admin)).toNumber()
