@@ -474,10 +474,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        455,
-                        456
+                        593,
+                        594
                       ],
-                      "referencedDeclaration": 455,
+                      "referencedDeclaration": 593,
                       "src": "462:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -542,7 +542,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 452,
+                              "referencedDeclaration": 590,
                               "src": "597:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -612,10 +612,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        455,
-                        456
+                        593,
+                        594
                       ],
-                      "referencedDeclaration": 455,
+                      "referencedDeclaration": 593,
                       "src": "581:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -673,7 +673,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 452,
+                          "referencedDeclaration": 590,
                           "src": "633:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2574,10 +2574,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                455,
-                                456
+                                593,
+                                594
                               ],
-                              "referencedDeclaration": 455,
+                              "referencedDeclaration": 593,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2806,10 +2806,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                455,
-                                456
+                                593,
+                                594
                               ],
-                              "referencedDeclaration": 455,
+                              "referencedDeclaration": 593,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2874,7 +2874,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 452,
+                                          "referencedDeclaration": 590,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -2979,7 +2979,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 452,
+                                      "referencedDeclaration": 590,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4650,7 +4650,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-28T22:43:45.037Z",
+  "updatedAt": "2022-02-27T23:35:05.472Z",
   "devdoc": {
     "methods": {}
   },

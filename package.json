@@ -1,0 +1,16 @@
+{
+    "name": "RPS-Token-Sale",
+    "version": "1.0.0",
+    "description": "RPS Token Sale ICO",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server"
+      },
+    "author": "senserum",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "2.6.1"
+    }    
+}
